@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MoodReel AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🎭 MoodReel AI</h1>
+    <p class="tagline">Your mood. Your feed.</p>
+
+    <select id="mood">
+      <option value="funny">😄 Funny</option>
+      <option value="roast">🔥 Roast</option>
+      <option value="study">📚 Study</option>
+      <option value="sad">💔 Sad</option>
+      <option value="cricket">🏏 Cricket</option>
+    </select>
+
+    <button onclick="generateFeed()">Generate Feed 🚀</button>
+
+    <div id="output" class="feed"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
